@@ -10,12 +10,12 @@ core = 7.x
 
 
 ; Drupal project.
-projects[drupal] = 7.31
+projects[drupal] = 7.x
 
 ; We point to our own installation profile here.
 ; This profile is the one that we actually are going to use.
 projects[nukedog_profile][type] = profile
-projects[nukedog_profiler][download][type] = git
+projects[nukedog_profile][download][type] = git
 projects[nukedog_profile][download][url] = https://github.com/NukedogProjects/nukedog_profile.git
 projects[nukedog_profile][download][branch] = 7.x-2.x
 
